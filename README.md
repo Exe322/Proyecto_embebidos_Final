@@ -1,1 +1,1 @@
-# Proyecto_embebidos_Final
+Control de temperatura
