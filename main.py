@@ -124,9 +124,9 @@ class App:
         rs.append(t_ref)
 
         # límite de items en el gráfico (200 puntos de muestra) para xs, ys y rs
-        self.xs = xs[-200:]
-        self.ys = ys[-200:]
-        self.rs = rs[-200:]
+        xs = xs[-200:]
+        ys = ys[-200:]
+        rs = rs[-200:]
 
         # borrar datos para no almacenar en la memoria ram
         self.ax.clear()
